@@ -1,0 +1,9 @@
+options:
+  lineNumbers: true
+  spellcheck: false
+editor:
+  lineNumbers: true
+  inputStyle: contenteditable
+  spellcheck: false
+admin:
+  deployCommand: ./hexo-publish.sh
