@@ -5,7 +5,7 @@ cache:
     - node_modules/
 
 before_script:
-  - test -e package.json && npm install
+  - npm install
   - hexo generate
 
 pages:
