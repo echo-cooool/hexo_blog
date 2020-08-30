@@ -21,7 +21,7 @@ metadata:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.wangyuyang.top/
+url: http://echo.cool
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -103,22 +103,22 @@ admin:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: sftp
-  host: gitlab.echo.cool
-  user: root
-  pass: Lkq2mapp
-  remotePath: /www/wwwroot/blog.wangyuyang.top
-  port: 22
 #deploy:
-#  type: rsync
+#  type: sftp
 #  host: gitlab.echo.cool
 #  user: root
-#  root: /www/wwwroot/blog.wangyuyang.top
+#  pass: Lkq2mapp
+#  remotePath: /www/wwwroot/blog.wangyuyang.top
 #  port: 22
-#  delete: true
-#  verbose: true
-#  ignore_errors: false
+deploy:
+  type: rsync
+  host: gitlab.echo.cool
+  user: root
+  root: /www/wwwroot/blog.wangyuyang.top
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
 
 #deploy:
 #  type: git
