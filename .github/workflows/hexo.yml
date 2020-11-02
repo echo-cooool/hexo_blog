@@ -17,6 +17,8 @@ jobs:
     - name: 3. install hexo...
       run: |
         npm install hexo-cli -g
+        npm install hexo-theme-butterfly
+        npm install hexo-renderer-pug hexo-renderer-stylus
         npm install
         
     - name: 4. hexo generate public files...
