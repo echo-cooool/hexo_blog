@@ -19,6 +19,7 @@ jobs:
     - name: 3. install hexo...
       run: |
         npm install hexo-cli@4.2.0 -g
+        npm install hexo-light-gallery -g
         npm install -g
         
     - name: 4. hexo generate public files...
