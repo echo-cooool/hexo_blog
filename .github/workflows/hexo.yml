@@ -18,7 +18,7 @@ jobs:
       run: |
         npm install hexo-cli -g
         npm install hexo-renderer-pug hexo-renderer-stylus -g
-        npm install hexo-theme-butterfly -g
+        npm install hexo-theme-butterfly@2.2.0 -g
         npm install -g
         
     - name: 4. hexo generate public files...
