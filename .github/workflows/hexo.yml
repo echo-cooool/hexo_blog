@@ -18,6 +18,7 @@ jobs:
     
     - name: 3. install hexo...
       run: |
+        npm i hexo-theme-butterfly
         npm install hexo-cli@4.2.0 -g
         npm install
         
