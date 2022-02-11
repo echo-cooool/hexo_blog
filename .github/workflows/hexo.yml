@@ -14,11 +14,10 @@ jobs:
     - name: 2. setup nodejs...
       uses: actions/setup-node@v1
       with:
-          node-version: '14.13.x'
+          node-version: '17.4.x'
     
     - name: 3. install hexo...
       run: |
-        npm install hexo-cli -g
         npm install
         
     - name: 4. hexo generate public files...
