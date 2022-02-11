@@ -14,7 +14,7 @@ jobs:
     - name: 2. setup nodejs...
       uses: actions/setup-node@v1
       with:
-          node-version: '17.4.x'
+          node-version: '17.4.0'
     
     - name: 3. install hexo...
       run: |
