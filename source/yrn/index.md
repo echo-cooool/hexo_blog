@@ -18,11 +18,12 @@ date: 2020-10-28 09:43:12
 
 本来想在这里说点有意思的，结果想了想好像也没啥，放点儿图吧。
 
+{% gallery %}
 
 ![](https://photos-picgo.oss-cn-beijing.aliyuncs.com/img/WechatIMG655.jpeg)
 ![](https://photos-picgo.oss-cn-beijing.aliyuncs.com/img/WechatIMG656.jpeg)
 
-
+{% endgallery %}
 
 哈哈哈哈哈哈哈哈哈哈，好像这个也挺好玩。
 还有个视频，就不放了（当然也可以找我要）👏👏👏

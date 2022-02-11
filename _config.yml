@@ -103,22 +103,29 @@ admin:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: sftp
-  host: gitlab.echo.cool
-  user: root
-  pass: Lkq2mapp
-  remotePath: /www/wwwroot/blog.wangyuyang.top
-  port: 22
 #deploy:
-#  type: rsync
+#  type: sftp
 #  host: gitlab.echo.cool
 #  user: root
-#  root: /www/wwwroot/blog.wangyuyang.top
+#  pass: Lkq2mapp
+#  remotePath: /www/wwwroot/blog.wangyuyang.top
 #  port: 22
-#  delete: true
-#  verbose: true
-#  ignore_errors: false
+deploy:
+  type: rsync
+  host: gitlab.echo.cool
+  user: root
+  root: /www/wwwroot/blog.wangyuyang.top
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
+#deploy:
+#  type: ftpsync
+#  host: 39.102.32.13
+#  user: hexo
+#  pass: Lkq2mapp
+#  remote: /
+#  port: 21
 
 #deploy:
 #  type: git
